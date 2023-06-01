@@ -11,6 +11,7 @@ span.right-span{
     height: 400px;
     background-color: lightgrey; 
     border-radius: 5px;
+    padding: 20px;
 }
 .user-details{
     font-weight: bold;
@@ -65,4 +66,9 @@ span.right-span{
     border-radius: 5px;
     border-color: none;
     border-style: none;
+    
+}
+.button:hover{
+    background-color: black;
+    color: white
 }
