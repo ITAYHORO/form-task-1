@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+    <div class="big-div">
+
+        <form>
+            <div class="user-dets">
+                <label for="" class="user-details">user details</label>
+            </div>
+
+
+            <div class="labels">
+                <span class="first-name-span">
+                    <label for="fname" id="label-first">First name:</label>
+                </span>
+                <span class="right-span">
+                    <label for="lname" id="label-last">Last name:</label>     
+                </span>
+            </div>
+
+
+
+            <div id="name-input">
+                <input type="text" placeholder="first name" id="fname">
+                <input type="text" placeholder="last name" id="lname">
+            </div>
+
+
+            <div class="labels" >
+                <span class="email">
+                    <label for="email">Email:</label>
+                </span>
+                <span class='phone-number'>
+                    <label for="phone-number">Phone number:</label>
+                </span>
+            </div>
+
+
+            <div id="email-phone-input">
+                <input type="text" placeholder='Email' id="email">
+                <input type="text" placeholder='Phone number' id="phone-number">
+            </div>
+            
+            <div class="user-dets">
+                <label for="" class="user-details">Additional Details</label>
+            </div>
+
+            <div id="profession">
+                <label for="mySelection">profession</label>
+            </div>
+            <div>
+                <select id="prof" name="mySelection" >
+                    <option value="" disabled selected>- Select -</option>
+                    <option value="option1">Game Developer</option>
+                    <option value="option2">Business man</option>
+                    <option value="option3">Machine engineer</option>
+                </select>
+            </div>
+
+            <div class="user-dets">
+                <label for="" class="comments">Comments</label>
+            </div>
+
+            <div>
+                <textarea name="" id="comment-box" cols="45" rows="6"></textarea>
+            </div>
+
+            <div class="button-div">
+                <button class="button" class="button1">Reset Form</button>
+                <button class="button"  class="button2">Send</button>
+        </form>
+    </div>
 </body>
 </html>

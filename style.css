@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+}
+span.right-span{
+    margin-left: 102px;
+}
+.big-div{
+    border: 1px;
+    border-color: grey;
+    width: 400px;
+    height: 400px;
+    background-color: lightgrey; 
+    border-radius: 5px;
+}
+.user-details{
+    font-weight: bold;
+    
+}
+#name-input{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.labels{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.user-dets{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.phone-number{
+    padding-left: 135px;
+}
+.email{
+    
+}
+#profession{
+
+        padding-top: 10px;
+        padding-left: 10px;
+}
+#email-phone-input{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#prof{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.comments{
+    
+}
+
+#comment-box{
+    margin-left: 10px;
+}
+.button-div{
+    margin-left: 240px;
+    margin-top: 10px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+}
